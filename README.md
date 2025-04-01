@@ -10,9 +10,8 @@ Problem przedstawia sytuację, w której:
 - Każdy filozof na przemian myśli i je
 
 Problem ilustruje wyzwania związane z synchronizacją w systemach współbieżnych, demonstrując potencjalne problemy takie jak:
-
-**Zakleszczenie (deadlock)** - wszyscy filozofowie jednocześnie podnoszą po jednym widelcu i czekają na drugi
-**Zagłodzenie (starvation)** - niektórzy filozofowie nie mogą uzyskać dostępu do zasobów przez dłuższy czas
+- **Zakleszczenie (deadlock)** - wszyscy filozofowie jednocześnie podnoszą po jednym widelcu i czekają na drugi
+- **Zagłodzenie (starvation)** - niektórzy filozofowie nie mogą uzyskać dostępu do zasobów przez dłuższy czas
 
 ## Wątki i ich reprezentacja
 Program tworzy N wątków, gdzie każdy wątek reprezentuje jednego filozofa:
