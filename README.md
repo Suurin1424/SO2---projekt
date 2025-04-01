@@ -45,3 +45,8 @@ Ta strategia zapobiega sytuacji, w której wszyscy filozofowie trzymają po jedn
 Synchronizacja wyjścia na konsolę:
 - Używany jest dodatkowy SpinLock do ochrony dostępu do konsoli
 - Metoda log() zapewnia, że tylko jeden wątek naraz może pisać do konsoli
+
+## Dodatkowe informacje
+Program używa generatora liczb pseudolosowych Mersenne Twister (std::mt19937) zainicjalizowanego prawdziwie losowym ziarnem
+Symulacja kończy się, gdy wszyscy filozofowie wykonają określoną liczbę cykli jedzenia
+Każdy widelec jest współdzielonym zasobem między dwóch sąsiadujących filozofów
