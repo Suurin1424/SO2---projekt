@@ -1,5 +1,5 @@
 # SO2---projekt
-##Opis problemu
+## Opis problemu
 Program implementuje klasyczny problem synchronizacji "Dining Philosophers" (Ucztujący Filozofowie), zaproponowany przez Edsgera Dijkstrę.
 Problem przedstawia sytuację, w której:
 
