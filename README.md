@@ -27,8 +27,8 @@ philosophers.emplace_back(&DiningPhilosophers::philosopher, this, i, ref(iterati
 
 ## Sekcje krytyczne
 W programie występują dwie główne sekcje krytyczne:
-Dostęp do widelców - każdy widelec może być używany tylko przez jednego filozofa naraz
-Dostęp do konsoli - wyjście z wielu wątków musi być zsynchronizowane, aby uniknąć pomieszania komunikatów
+**Dostęp do widelców** - każdy widelec może być używany tylko przez jednego filozofa naraz
+**Dostęp do konsoli** - wyjście z wielu wątków musi być zsynchronizowane, aby uniknąć pomieszania komunikatów
 
 ## Rozwiązanie
 Spinlock dla widelców:
