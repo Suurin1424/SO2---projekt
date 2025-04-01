@@ -22,7 +22,7 @@ Czasy myślenia i jedzenia są losowe (w zakresie 500-1500 ms)
 Każdy filozof wykonuje określoną liczbę cykli (iteracji)
 
 Wątki są tworzone w metodzie start() przy użyciu standardowej biblioteki <thread>:
-philosophers.emplace_back(&DiningPhilosophers::philosopher, this, i, ref(iterations_count[i]));
+```philosophers.emplace_back(&DiningPhilosophers::philosopher, this, i, ref(iterations_count[i]));```
 
 #Sekcje krytyczne
 W programie występują dwie główne sekcje krytyczne:
